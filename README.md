@@ -49,7 +49,7 @@ The run command used to generate the image below (on an 8 core M1 Macbook) is:
 ```
 
 <p float="left">
-  <img src="render_q3_28900_rpp.ppm" />
+  <img src="render_q3_28900_rpp.png" />
 </p>
 
 ###### Sample 2
@@ -59,7 +59,7 @@ The run command used to generate the image below (on an 8 core M1 Macbook) is:
 ```
 
 <p float="left">
-  <img src="render_q2_25_rpp.ppm" />
+  <img src="render_q2_25_rpp.png" />
 </p>
 
 ## References
