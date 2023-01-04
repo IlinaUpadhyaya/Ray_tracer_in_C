@@ -1,4 +1,9 @@
 # Ray Tracer in C
+## Table of Contents
+- [Introduction](#introductionbackground)
+- [Building and Running](#building-and-running-the-app)
+- [Samples](#sample-outputs)
+- [References](#references)
 
 ## Introduction/Background
 This raytracer is an application to render a scene with objects and lighting. It was originally written in C# for a coursework assignment (30% of final mark) for the University of Melbourne subject COMP300019 (Graphics and Interaction), and has now been rewritten in pure POSIX C.
@@ -21,17 +26,17 @@ Ensure that the scene.json file and all the obj files are in the same directory.
 gcc -Wall -lm -lpthread -o raytracer FileUtils.c Scene.c Vector.c jsmn.c Render.c main.c
 
 #### Libraries Required (Linux/Unix)
-math
-pthread
+- math
+- pthread
 
 #### Input Flags
- -i[input settings file path]
- -o[output ppm image file path]
- -x[rays per pixel side] (NOTE: rays per pixel is x^2)
- -t[number of threads to be created]
- -q[valid entries are 1 (for basic render), 2 (for render with point lights only) and 3 (for higest quality render applying Monte-Carlo path tracing)]
- -w[width in pixels]
- -h[height in pixels]
+-i[input settings file path]  
+-o[output ppm image file path]  
+-x[rays per pixel side] (NOTE: rays per pixel is x<sup>2</sup>)  
+-t[number of threads to be created]  
+-q[valid entries are 1 (for basic render), 2 (for render with point lights only) and 3 (for higest quality render applying Monte-Carlo path tracing)]  
+-w[width in pixels]  
+-h[height in pixels]
 
  NOTE: there must not be any space between the flag and input supplied.
 
@@ -39,7 +44,7 @@ pthread
 Output should be saved as a .ppm file since saving it as a .png requires an extra external library. 
 
 ###### Sample 1
-This image was generated with a handcrafted linux/mac networked cluster with 22 CPU cores.
+This image was generated with a handcrafted linux/mac networked cluster with 22 CPU cores.  
 This program was modified in a separate project to implement the cluster API.
 
 The run command used to generate the image below (on an 8 core M1 Macbook) is:
