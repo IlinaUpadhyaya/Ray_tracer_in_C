@@ -58,7 +58,7 @@ The run command used to generate the image below (on an 8 core M1 Macbook) is:
 </p>
 
 ###### Sample 2
-The run command used to generate the image below (on an 8 core M1 Macbook) is:
+The run command used to generate the image below is:
 ```
 ./raytracer -x5 -q2 -t4 -iscene.json -otest_render_q2_25_rpp.ppm -w600 -h600
 ```
