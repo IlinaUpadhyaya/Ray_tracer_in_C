@@ -91,6 +91,5 @@ http://www.martinreddy.net/gfx/3d/OBJ.spec
 https://github.com/stefangordon/ObjParser
 Axis aligned bounding boxes and determining ray bound intersection algorithm:
 from Book: Physically Based Rendering Third Edition 3.1.1 and 3.1.2
-The program handles obj files with the RHS and converts them to the LHS system used.
 
 Illumination and material colours: https://www.shadertoy.com/view/MtfGR4
